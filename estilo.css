@@ -1,0 +1,107 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  color: rgb(8, 8, 8);
+}
+.caixa1 {
+   position: absolute;
+   background: rgb(255, 255, 255);
+   width: 200px;
+   height: 200px;
+   color: #FFFFFF;
+   right: 500px;
+   top: 200px;
+}
+.caixa2 {
+   position: absolute;
+   background: rgb(119, 3, 3);
+   width: 200px;
+   height: 200px;
+   color: #000000;
+   right: 705px;
+   top: 200px;
+}
+
+.menuPrincipal {
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  background: lightseagreen;
+  top: 0;
+  left: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(35, 162, 201);
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover {
+  color: yellow;
+  background: rgb(99, 240, 6);
+}
+#image {
+   width: 30%;
+}
+.boxImage {
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   width: 100%;
+   height: 200px;
+   background: rgb(119, 156, 190);
+   top: 50px;
+   left: 0;
+   margin: 20px;
+   border-color: blue;
+   border-width: 20px;
+   border-style: solid;
+   padding: 20px;
+}
+.conteudo {
+  position: absolute;
+  top: 45px;
+  width: 100%;
+}
+#rodape {
+  position: relative;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+}
+#copy {
+  width: 90%;
+  background: black;
+  border-radius: 30px;
+  color: rgb(196, 199, 50);
+  display: flex;
+  justify-content: center;
+}
+.logoGastao{
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+  
+
+
