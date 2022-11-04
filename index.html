@@ -1,47 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
+<html lang="pt-br">
 
 <head>
-  <meta charset="utf-8">
-  <title>naruto</title>
-  <link rel="stylesheet" href="estilo.css">
-
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Primeiro G</title>
+   <script src="estudo.js"></script>
+   <link rel="stylesheet" href="geral.css">
 </head>
 
 <body>
-  <div class="menuPrincipal">
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pagina01.html">CHL</a></li>
-            <li><a href="pagina02.html">CNM</a></li>
-        </ul>
-    </nav>
-</div>
-  <div class="conteudo">
-    <center>
-    <h1>Naruto Uzumaki</h1>
-
-    <h2>Natuarlidade: Aldeia Oculta Da Folha "Konohagakure"
-
-    <img src="naruto-shippuden.jpg" alt="">
-     
-    <div id="rodape">
-      <div id="copy">
-
-        &copy;Trabalho - Naruto/Masashi Kishimoto
-
-        Aluno: Victor Hugo Garozo </h2>
-      </center>
-
+   <input type="checkbox" id="input-calcFin">
+   <div class="calc">
+      <div id="sptotal">
+         <span id="total">R$ 0,00</span>
       </div>
-
-      
-    </div>
-  </div>
-
-
-
+      Capital: <input id="capital" placeholder="R$ ??" type="text"> <br>
+      Juros Mensais: <input id="juros" placeholder="% ??" type="text"> <br>
+      Quantidade de meses <input id="meses" placeholder="Tempo ??" type="text"> <br>
+      <button onclick="total()">Calcular</button>
+      <div id="splista">
+         <span id="listames"></span>
+      </div>
+   </div>
 </body>
 
 </html>
